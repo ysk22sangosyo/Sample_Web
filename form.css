@@ -17,9 +17,25 @@ margin: auto;
     text-align: center;
     display: inline block;
 }
+
+
 label{
     border: 1px solid black;
     border-radius: 5px;
     margin: 3px;
     padding: 2px;
    }
+   select {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 50px;
+  }
+  select::-ms-expand {
+    display: none; 
+  }
+  select {
+    background-image:url(img/Image20220407121942.png);
+    background-position: left 35px center;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+  }
