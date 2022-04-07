@@ -6,6 +6,7 @@
 
 span {
     background-color: red;
+    color: white;
     border-radius: 10px;
 }
 
@@ -40,7 +41,7 @@ input[type="text"] {
 
 input[type="number"] {
     border-radius: 3px;
-
+text-align: center;
 }
 
 input[type="submit"] {
