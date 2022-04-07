@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研修アンケート</title>
+</head>
+
+<body>
+    <div id="head">
+        <p>アンケート</p>
+    </div>
+    <div class="info">
+        <p>Axizの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入及び送信をして頂けると幸いです。
+        </p>
+
+        <p>会社名 <span>必須</span><br>
+            <input type="text" style="width: 430px; height: 15px;" name="kaisya" placeholder="例)株式会社テクノコア" required>
+        </p>
+        <p>お名前 <span>必須</span><br>
+            <input type="text" style="width: 430px; height: 15px;" name="name" placeholder="例)手久野　興亜" required>
+        </p>
+        <p>メールアドレス<br>
+            <input type="text" style="width: 430px; height: 15px;" name="mail" placeholder="例)example@axiz.co.jp">
+        </p>
+        <p>年齢<br>
+            <input type="number"  style="width: 50px; height: 15px;" name="old">
+        </p>
+        <p>受講コース<br>
+            <label><input type="radio" name="course" checked>Java</label>
+            <label><input type="radio" name="course">インフラ</label>
+        </p>
+        <p>会場<br>
+            <select style="width: 430px; height: 30px;" name="会場">
+                <option value="one" selected>日本橋A教室</option>
+                <option value="two">日本橋B教室</option>
+                <option value="three">日本橋C教室</option>
+                <option value="four">飯田橋A教室</option>
+                <option value="five">飯田橋B教室</option>
+                <option value="six">飯田橋C教室</option>
+                <option value="seven">沖縄教室</option>
+            </select>
+
+        </p>
+        詳しく学びたい内容(複数回答可)
+        <div class="naiyou">
+            <label> <input type="checkbox" name="manabi" value="biziness">ビジネスマナー</label>
+            <label><input type="checkbox" name="manabi" value="htmlcss">HTML/CSS </label>
+            <label><input type="checkbox" name="manabi" value="javascript">JavaScript</label>
+            <label> <input type="checkbox" name="manabi" value="java">Java</label>
+            <label> <input type="checkbox" name="manabi" value="database">データベース</label>
+            <label> <input type="checkbox" name="manabi" value="linux">Linux</label>
+        </div>
+       
+        <p>ご意見<br>
+        <textarea name="goiken" rows="6" cols="30">
+</textarea>
+        <p><input type="submit" value="送信する"></p>
+
+    </div>
+    <div id="foot">
+        <p>Copyright(c)AxiZ</p>
+    </div>
+</body>
+
+</html>

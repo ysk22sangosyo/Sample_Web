@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="form.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>質問・感想フォーム</title>
+</head>
+<body>
+    <h1 id="mida">質問・感想フォーム</h1>
+    <div class="formdata">
+        
+<form action="result.html">
+    <div id="name"><p>氏名</p>
+        
+        <input type="text" name="name" placeholder="名前を入力してください"> </div>
+        <div id="sex"><p>性別</p>
+        <form action="result.html">
+            <label><input type="radio" name="sex" value="man" checked>男
+            </label><label><input type="radio" name="sex" value="woman">女</label></div>
+        
+            <div id="old"><p>年齢</p>
+                
+                  <div class="old">  <select name="年齢" >
+                        <option value="one" selected>10代</option>
+                        <option value="two" >20代</option>
+                        <option value="three" >30代</option>
+                        <option value="four" >40代</option>
+                        <option value="five" >50代</option>
+                        <option value="six" >60代</option>
+                        <option value="seven" >70代</option>
+                        <option value="eight" >80代</option>
+                        <option value="nine" >90代</option>
+                        <option value="ten" >100代</option>  </select>     </div>  
+           
+                
+            </div>
+<div id="cook"><p>今後見てみたいレシピ</p>
+            
+              <label>  <input type="checkbox" name="recpie" value="wasyoku" checked>和食</label>
+               <label><input type="checkbox" name="recpie" value="chuka" >中華 </label>
+                <label><input type="checkbox" name="recpie" value="yousyoku" >洋食</label>
+              <label> <input type="checkbox" name="recpie" value="itarian" >イタリアン</label> 
+              <label> <input type="checkbox" name="recpie" value="suit" >スイーツ</label> 
+              <label>  <input type="checkbox" name="recpie" value="ather" >その他 </label>
+                
+                </div>
+<div id="free"><p>自由コメント欄</p>
+<form action="result.html">
+ <p><textarea name="free" rows="7" cols="50" >   </textarea>
+</form></p>
+<button type="submit">送信</button>
+<button type="reset">取り消し</button>
+</div>
+</div>
+</form>
+</body>
+</html>

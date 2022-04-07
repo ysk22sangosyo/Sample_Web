@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/bg_Argyle.jpg);
+    
+}
+.bun{
+text-align: center;
+}
+.curry{
+   
+   
+   text-align: center; 
+ 
+    
+}
+.curry img{
+     border: double 10px  red;  
+}
+.zu{
+background-color:rgb(252, 252, 198) ; 
+border-color: crimson;
+}
+.itiran{
+    color: crimson;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.kansou{
+    display:flex;
+}
+#arumono{
+    font-weight: bold;
+}
+.aa{
+    Display: flex  
+}

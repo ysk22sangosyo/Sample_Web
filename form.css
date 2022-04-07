@@ -1,0 +1,25 @@
+body{
+    background-image: url(img/bg_Argyle.jpg);
+    
+}
+#mida{
+    text-align: center;
+}
+.formdata{
+  
+    border: 3px solid  rgb(238, 206, 221);
+  
+width: 50%;
+margin: auto;
+    border-radius: 15px;
+   padding: 15px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline block;
+}
+label{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 2px;
+   }
